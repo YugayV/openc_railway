@@ -3,19 +3,11 @@ FROM node:22-alpine
 # Install OpenClaw globally
 RUN npm install -g openclaw
 
-# Create config directory
-RUN mkdir -p /app/config
-
-# Copy config
-COPY openclaw.json /app/config/openclaw.json
-
-# Set config path via environment variable
-ENV OPENCLAW_CONFIG=/app/config/openclaw.json
-
-# Create data directory for OpenClaw workspace/state
-RUN mkdir -p /app/workspace
-
+# Create app directory
 WORKDIR /app
+
+# Copy config directly to /app
+COPY openclaw.json /app/openclaw.json
 
 # Expose gateway port
 EXPOSE 18789
