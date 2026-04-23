@@ -88,10 +88,15 @@
       "enabled": true,
       "groups": {
         "*": {
-          "requireMention": true
+          "requireMention": false
         }
       },
-      "botToken": "8652710344:AAFXe46j266griGO5J_FrXYTyL20ZyPZdbk"
+      "botToken": "8652710344:AAFXe46j266griGO5J_FrXYTyL20ZyPZdbk",
+      "users": {
+        "allow": [
+          "379494671"
+        ]
+      }
     }
   },
   "plugins": {
