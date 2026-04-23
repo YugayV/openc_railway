@@ -28,5 +28,5 @@ ENV PORT=18789
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
   CMD wget -qO- http://localhost:18789/health || exit 1
 
-# Run OpenClaw gateway
-CMD ["openclaw", "gateway"]
+# Run OpenClaw gateway in foreground mode
+CMD ["openclaw", "gateway", "run"]
