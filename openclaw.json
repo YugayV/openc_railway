@@ -19,7 +19,7 @@
       "password": "Yuli.2116"
     },
     "port": 18789,
-    "bind": "0.0.0.0",
+    "bind": "lan",
     "remote": {
       "url": "https://opencrailway-production.up.railway.app"
     },
@@ -91,12 +91,7 @@
           "requireMention": false
         }
       },
-      "botToken": "8652710344:AAFXe46j266griGO5J_FrXYTyL20ZyPZdbk",
-      "users": {
-        "allow": [
-          "379494671"
-        ]
-      }
+      "botToken": "8652710344:AAFXe46j266griGO5J_FrXYTyL20ZyPZdbk"
     }
   },
   "plugins": {
