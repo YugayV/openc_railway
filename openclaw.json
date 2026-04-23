@@ -99,7 +99,7 @@
       "amazon-bedrock": {
         "config": {
           "discovery": {
-            "enabled": true
+            "enabled": false
           }
         }
       },
@@ -128,14 +128,8 @@
       "ollama": {
         "config": {
           "discovery": {
-            "enabled": true
+            "enabled": false
           }
-        }
-      },
-      "acpx": {
-        "config": {
-          "permissionMode": "approve-all",
-          "nonInteractivePermissions": "deny"
         }
       },
       "xai": {
@@ -174,14 +168,8 @@
       }
     }
   },
-  "wizard": {
-    "lastRunAt": "2026-04-23T13:55:19.003Z",
-    "lastRunVersion": "2026.4.15",
-    "lastRunCommand": "onboard",
-    "lastRunMode": "local"
-  },
   "meta": {
     "lastTouchedVersion": "2026.4.15",
-    "lastTouchedAt": "2026-04-23T13:55:43.272Z"
+    "lastTouchedAt": "2026-04-24T06:30:00.000Z"
   }
 }
