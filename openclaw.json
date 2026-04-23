@@ -20,6 +20,9 @@
     },
     "port": 18789,
     "bind": "0.0.0.0",
+    "remote": {
+      "url": "https://opencrailway-production.up.railway.app"
+    },
     "tailscale": {
       "mode": "off",
       "resetOnExit": false
