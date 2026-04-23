@@ -1,0 +1,11 @@
+{
+  "name": "openclaw-railway",
+  "version": "1.0.0",
+  "description": "OpenClaw AI Gateway - Railway Deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "openclaw gateway"
+  },
+  "keywords": ["openclaw", "ai", "gateway"],
+  "license": "MIT"
+}

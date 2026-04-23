@@ -1,0 +1,10 @@
+[railway]
+  builder = "dockerfile"
+  dockerfilePath = "Dockerfile"
+
+[railway.variant]
+  env = "production"
+
+[deploy]
+  healthCheckPath = "/health"
+  port = 18789
